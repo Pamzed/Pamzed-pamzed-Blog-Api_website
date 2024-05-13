@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .tiptap {
+  height: 20rem;
+  overflow-y: scroll;
+  padding: 10px;
+  outline: none;
+} */
+
+.editor-custom {
+  border-radius: 4px;
+  /* display: grid; */
+  /* grid-template-columns: repeat(24, 1fr); */
+}
+
+.ProseMirror {
+  outline: none;
+  @apply max-w-full max-h-full py-1 px-4 prose-ul:my-2 prose-ol:my-2 prose-li:marker:!text-black rounded-sm min-h-[350px] mx-auto prose-ol:px-4 prose-sm prose prose-p:text-black prose-strong:text-black prose-ul:px-4 prose-headings:text-black prose-headings:my-2 prose-p:my-2 sm:prose-base lg:prose-lg xl:prose-sm focus:outline-none;
+}
